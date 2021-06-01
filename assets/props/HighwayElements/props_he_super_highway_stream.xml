@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<diff>
+	<remove sel="/components/component[@name='props_he_super_highway_stream']/connections" />
+</diff>

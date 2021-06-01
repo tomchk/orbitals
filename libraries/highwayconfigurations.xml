@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <replace sel="/highwayconfigurations/configurations/configuration[@id='defaultsuperhighwayconfiguration']/blockerconfiguration/@ref">empty_blocker_config</replace>
+</diff>

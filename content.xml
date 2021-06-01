@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<content id="orbitals" name="orbitals" description="" author="metame" date="2021-05-28" version="2" save="0">
+  <dependency id="ego_dlc_terran" version="100" optional="false" />
+  <dependency id="ego_dlc_split" version="100" optional="false" />
+  <dependency id="xr_ut_mix" version="2" optional="true" />
+</content>

@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<diff>
+	<replace sel="/components/component[@name='he_gen_superhighway_entrance_01']/source/@geometry">assets\props\gates\props_gates_orb_accelerator_01_data</replace>
+	<remove sel="/components/component[@name='he_gen_superhighway_entrance_01']/connections" />
+	<add sel="/components/component[@name='he_gen_superhighway_entrance_01']">
+
+		<connections>
+			<connection name="container" tags="contents" value="0">
+				<offset>
+					<!-- <rotation yaw="180" pitch="0" /> -->
+				</offset>
+			</connection>
+			<connection name="position" tags="position" value="1">
+				<offset>
+					<!-- <rotation yaw="180" pitch="0" /> -->
+				</offset>
+			</connection>
+			<connection name="space" tags="highwayentrygate">
+				<offset>
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="180" pitch="0" /> -->
+				</offset>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="0" y="-0.2033539" z="0" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="0" pitch="0" /> -->
+				</offset>
+				<parts>
+					<part name="part_middle">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2527.683" y="279.9688" z="4590.021" />
+							<center x="0" y="-1.525879E-05" z="-2417.198" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="1.220703E-04" y="2.441406E-04" z="508.2584" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="0" pitch="0" /> -->
+				</offset>
+				<parts>
+					<part name="part_back">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1638.501" y="1582.899" z="2465.802" />
+							<center x="0" y="0" z="-6.103516E-05" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part  ">
+				<offset>
+					<position x="0" y="0" z="-6166.292" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="0" pitch="0" /> -->
+				</offset>
+				<parts>
+					<part name="part_front">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+									<material id="3" ref="generic.generic_p1_hullpattern" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1567.461" y="1029.941" z="3309.31" />
+							<center x="0" y="0" z="4.882813E-04" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+
+			<connection name="Connection05" tags="part detail_xs nocollision forceoutline  ">
+				<offset>
+					<position x="1.220703E-04" y="1.220703E-04" z="439.8606" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="180" pitch="0" /> -->
+				</offset>
+				<parts>
+					<part name="detail_xs_back">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_alphatexture" />
+									<material id="2" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2022.062" y="1587.507" z="2385.609" />
+							<center x="0" y="0" z="0" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part detail_xs nocollision forceoutline  ">
+				<offset>
+					<position x="1.831055E-04" y="0" z="-6239.109" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="180" pitch="0" /> -->
+				</offset>
+				<parts>
+					<part name="detail_xs_front">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_alphatexture" />
+									<material id="2" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2022.062" y="1027.553" z="3233.274" />
+							<center x="6.103516E-05" y="0" z="0" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part detail_m nocollision animation textureanimation forceoutline  ">
+				<offset>
+					<position x="-7.324219E-04" y="-6.103516E-05" z="-3250.551" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<!-- <rotation yaw="180" pitch="0" /> -->
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="100" />
+				</animations>
+				<parts>
+					<part name="anim_poslights">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_gradient_colour" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2527.683" y="1497.509" z="6212.293" />
+							<center x="0" y="6.103516E-05" z="-2.441406E-04" />
+						</size>
+						<size_raw>
+							<max x="2527.683" y="1497.509" z="6212.293" />
+							<center x="0" y="6.103516E-05" z="-2.441406E-04" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto" />
+									<key frame="100" value="-1" in_tangent_type="auto" out_tangent_type="auto" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part nocollision  ">
+				<offset>
+					<position x="12.69062" y="46.24132" z="-115.0622" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+				</offset>
+				<parts>
+					<part name="fx_bluehaze">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_lightcone_soft" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4566.824" y="4591.875" z="8224.882" />
+							<center x="-6.074413" y="-140.2242" z="-4486.29" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection10" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="-58.75539" y="590.3961" z="1091.217" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="300" />
+				</animations>
+				<parts>
+					<part name="anim_fx_electroswirl">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_highway_streamclouds_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1274.686" y="812.3462" z="1559.056" />
+							<center x="51.35525" y="-583.4509" z="-1045.648" />
+						</size>
+						<size_raw>
+							<max x="1274.685" y="812.3462" z="1559.055" />
+							<center x="51.35513" y="-583.4509" z="-1045.647" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="0" />
+								</uv_property>
+								<uv_property name="rotation_angle" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="180" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="4">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="0" />
+								</uv_property>
+								<uv_property name="rotation_angle" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="-180" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="-4.791151" y="495.9277" z="906.0652" />
+					<!-- <quaternion qx="-3.300118E-15" qy="-1" qz="-4.371138E-08" qw="7.54979E-08" /> -->
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="300" />
+				</animations>
+				<parts>
+					<part name="anim_fx_electrostorm">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_highway_streamclouds_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1756.219" y="1773.686" z="883.4774" />
+							<center x="55.81483" y="-502.065" z="-1017.075" />
+						</size>
+						<size_raw>
+							<max x="1756.219" y="1773.686" z="883.4772" />
+							<center x="55.81471" y="-502.0651" z="-1017.075" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-2.97472" />
+									<key frame="300" value="5.025278" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="0" />
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0.4869334" />
+									<key frame="300" value="3.513066" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="1" />
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0" />
+									<key frame="300" value="-0" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="-9.67627" y="115.1989" z="-6957.186" />
+					<!-- <quaternion qx="-3.300118E-15" qy="-1" qz="-4.371139E-08" qw="7.54979E-08" /> -->
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="300" />
+				</animations>
+				<parts>
+					<part name="anim_fx_electro_ring">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_highway_streamclouds_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1414.005" y="1502.185" z="8243.478" />
+							<center x="55.2218" y="-81.09448" z="1.833496" />
+						</size>
+						<size_raw>
+							<max x="1414.005" y="1502.185" z="8243.478" />
+							<center x="55.2218" y="-81.09454" z="1.833496" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0" />
+									<key frame="300" value="7.999995" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0" />
+									<key frame="300" value="7.999998" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0" />
+									<key frame="300" value="1" />
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0" />
+									<key frame="300" value="-0" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" tags="part nocollision animation textureanimation  ">
+				<offset>
+					<position x="17.80505" y="-108.6843" z="-1043.873" />
+					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="300" />
+				</animations>
+				<parts>
+					<part name="anim_fx_bluesmoke">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_highway_streamclouds_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1958.663" y="2034.046" z="5727.655" />
+							<center x="-9.708405E-04" y="0" z="-3971.971" />
+						</size>
+						<size_raw>
+							<max x="1958.663" y="2034.046" z="5727.655" />
+							<center x="-1.031876E-03" y="6.103516E-05" z="-3971.971" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0" />
+									<key frame="300" value="1" />
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0" />
+									<key frame="300" value="2" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+
+			<connection name="Connection01" value="1" tags="entrygate ">
+				<offset>
+					<!-- <rotation yaw="180" /> -->
+				</offset>
+			</connection>
+			<connection name="Connection02" tags="highwaygate ">
+				<offset>
+					<!-- <rotation yaw="180" /> -->
+				</offset>
+			</connection>
+		</connections>
+
+	</add>
+</diff>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<diff>
+	<remove sel="/components/component[@name='he_gen_superhighway_exit_01']/connections" />
+	<add sel="/components/component[@name='he_gen_superhighway_exit_01']">
+		<connections>
+			<connection name="container" tags="contents" value="0" />
+			<connection name="position" tags="position" value="1" />
+			<connection name="space" tags="highwayexitgate">
+				<offset />
+			</connection>
+			<connection name="Connection01" value="-1" tags="exitgate ">
+				<offset />
+			</connection>
+			<connection name="Connection02" tags="highwaygate ">
+				<offset />
+			</connection>
+		</connections>
+	</add>
+</diff>
