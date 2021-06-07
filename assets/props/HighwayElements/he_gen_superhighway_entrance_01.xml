@@ -5,27 +5,15 @@
 	<add sel="/components/component[@name='he_gen_superhighway_entrance_01']">
 
 		<connections>
-			<connection name="container" tags="contents" value="0">
-				<offset>
-					<!-- <rotation yaw="180" pitch="0" /> -->
-				</offset>
-			</connection>
-			<connection name="position" tags="position" value="1">
-				<offset>
-					<!-- <rotation yaw="180" pitch="0" /> -->
-				</offset>
-			</connection>
+			<connection name="container" tags="contents" value="0" />
+			<connection name="position" tags="position" value="1" />
 			<connection name="space" tags="highwayentrygate">
-				<offset>
-					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
-					<!-- <rotation yaw="180" pitch="0" /> -->
-				</offset>
+				<offset />
 			</connection>
 			<connection name="Connection03" tags="part  ">
 				<offset>
-					<position x="0" y="-0.2033539" z="0" />
-					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
-					<!-- <rotation yaw="0" pitch="0" /> -->
+					<position x="0" y="0.2033539" z="0" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 				<parts>
 					<part name="part_middle">
@@ -66,8 +54,8 @@
 			</connection>
 			<connection name="Connection04" tags="part  ">
 				<offset>
-					<position x="1.220703E-04" y="2.441406E-04" z="508.2584" />
-					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<position x="-1.220703E-04" y="-2.441406E-04" z="-508.2584" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 					<!-- <rotation yaw="0" pitch="0" /> -->
 				</offset>
 				<parts>
@@ -109,9 +97,8 @@
 			</connection>
 			<connection name="Connection06" tags="part  ">
 				<offset>
-					<position x="0" y="0" z="-6166.292" />
-					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
-					<!-- <rotation yaw="0" pitch="0" /> -->
+					<position x="0" y="0" z="6166.292" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 				<parts>
 					<part name="part_front">
@@ -153,8 +140,8 @@
 
 			<connection name="Connection05" tags="part detail_xs nocollision forceoutline  ">
 				<offset>
-					<position x="1.220703E-04" y="1.220703E-04" z="439.8606" />
-					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<position x="-1.220703E-04" y="-1.220703E-04" z="-439.8606" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 					<!-- <rotation yaw="180" pitch="0" /> -->
 				</offset>
 				<parts>
@@ -176,8 +163,8 @@
 			</connection>
 			<connection name="Connection07" tags="part detail_xs nocollision forceoutline  ">
 				<offset>
-					<position x="1.831055E-04" y="0" z="-6239.109" />
-					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
+					<position x="-1.831055E-04" y="0" z="6239.109" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 					<!-- <rotation yaw="180" pitch="0" /> -->
 				</offset>
 				<parts>
@@ -363,7 +350,7 @@
 			</connection>
 			<connection name="Connection12" tags="part nocollision animation textureanimation  ">
 				<offset>
-					<position x="-9.67627" y="115.1989" z="-6957.186" />
+					<position x="9.67627" y="-115.1989" z="6957.186" />
 					<!-- <quaternion qx="-3.300118E-15" qy="-1" qz="-4.371139E-08" qw="7.54979E-08" /> -->
 				</offset>
 				<animations>
@@ -415,7 +402,7 @@
 			</connection>
 			<connection name="Connection13" tags="part nocollision animation textureanimation  ">
 				<offset>
-					<position x="17.80505" y="-108.6843" z="-1043.873" />
+					<position x="-17.80505" y="108.6843" z="1043.873" />
 					<!-- <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" /> -->
 				</offset>
 				<animations>
@@ -457,14 +444,10 @@
 			</connection>
 
 			<connection name="Connection01" value="1" tags="entrygate ">
-				<offset>
-					<!-- <rotation yaw="180" /> -->
-				</offset>
+				<offset />
 			</connection>
 			<connection name="Connection02" tags="highwaygate ">
-				<offset>
-					<!-- <rotation yaw="180" /> -->
-				</offset>
+				<offset />
 			</connection>
 		</connections>
 
